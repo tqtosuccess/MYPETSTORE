@@ -156,6 +156,15 @@
         <servlet-name>NewAccountServlet</servlet-name>
         <url-pattern>/newAccount</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UsernameExistServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.servlets.UsernameExistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsernameExistServlet</servlet-name>
+        <url-pattern>/usernameExist</url-pattern>
+    </servlet-mapping>
 
     <!--账号信息更改-->
     <servlet>
